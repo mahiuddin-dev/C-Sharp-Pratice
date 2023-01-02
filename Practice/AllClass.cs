@@ -21,5 +21,30 @@ namespace Practice
 
     }
 
+    class Person
+    {
+        public string Name 
+        {
+            set;
+            get; 
+        }
+    }
+
+
+    class Animal
+    {
+        public virtual void animalSound()
+        {
+            Console.WriteLine("Animal make sound");
+        }
+    }
+
+    class Dog : Animal
+    {
+        public override void animalSound()
+        {
+            Console.WriteLine("Dog Sound");
+        }
+    }
 
 }

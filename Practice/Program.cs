@@ -24,11 +24,16 @@ namespace Practice
             Console.WriteLine(count);
 
 
-            Car Ford = new Car("Mustang", "Red", 1969);
+        /*    Car Ford = new Car("Mustang", "Red", 1969);
             Car Ford2 = new Car("Mustang", "Black", 2005);
             Console.WriteLine(Ford.color + " " + Ford.year + " " + Ford.model);
-            Console.WriteLine(Ford2.color + " " + Ford2.year + " " + Ford2.model);
+            Console.WriteLine(Ford2.color + " " + Ford2.year + " " + Ford2.model); */
 
+            Animal animal = new Animal();
+            Animal dog = new Dog();
+
+            animal.animalSound();
+            dog.animalSound();
 
         }
         public static void User()
