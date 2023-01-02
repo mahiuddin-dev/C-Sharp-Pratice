@@ -5,8 +5,10 @@ namespace Practice
 {
     class Program
     {
+
         static void Main(string[] args)
         {
+
             Console.WriteLine("Hello");
 
 
@@ -21,7 +23,11 @@ namespace Practice
             const int count = 10;
             Console.WriteLine(count);
 
-            ArrayMethod();
+
+            Car Ford = new Car("Mustang", "Red", 1969);
+            Car Ford2 = new Car("Mustang", "Black", 2005);
+            Console.WriteLine(Ford.color + " " + Ford.year + " " + Ford.model);
+            Console.WriteLine(Ford2.color + " " + Ford2.year + " " + Ford2.model);
 
 
         }
@@ -63,6 +69,18 @@ namespace Practice
             }
 
         }
+
+        // Method Overloading
+        static int sum(int x, int y)
+        {
+            return x + y;
+        }
+        static double sum(double x, double y)
+        {
+            return x + y;
+        }
+
     }
+
 }
 
