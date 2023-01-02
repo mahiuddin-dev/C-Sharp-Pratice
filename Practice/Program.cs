@@ -22,6 +22,12 @@ namespace Practice
             Console.WriteLine(count);
 
 
+            Console.WriteLine("Enter username:");
+            string username = Console.ReadLine();
+
+            Console.WriteLine(username);
+
+
         }
     }
 }
