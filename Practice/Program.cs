@@ -35,6 +35,13 @@ namespace Practice
             animal.animalSound();
             dog.animalSound();
 
+            BinarySearch data = new BinarySearch();
+            int[] arr = { 1, 2, 3, 4, 5 };
+
+            Console.WriteLine(data.find(arr, 5));
+
+           
+
         }
         public static void User()
         {
